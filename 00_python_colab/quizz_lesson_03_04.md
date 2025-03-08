@@ -156,7 +156,7 @@ In Python, `==` and `is` are used for different purposes:
    checks if **both variables refer to the exact same object in memory**.
    `is` when you want to check if two variables refer to the **same object in memory**.
 
-  ### Key Differences: is vs ==
+  ### Key Differences: `is` vs `==`
 * Use **`is`** when checking object identity (same memory location).
 * Use **`==`** when checking if values are the same.
 
