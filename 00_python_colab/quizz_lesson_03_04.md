@@ -144,10 +144,6 @@ y = [1, 2, 3]  # Different objects with the same values
 print(x is not y)  # Output: True
 ```
 
-## Key Differences: is vs ==
-* Use is when checking object identity (same memory location).
-* Use == when checking if values are the same.
-
 ## Difference Between `==` and `is` in Python  
 
 In Python, `==` and `is` are used for different purposes:  
@@ -159,6 +155,10 @@ In Python, `==` and `is` are used for different purposes:
 - `is` **compares object identity (memory location)**
    checks if **both variables refer to the exact same object in memory**.
    `is` when you want to check if two variables refer to the **same object in memory**.
+
+  ### Key Differences: is vs ==
+* Use **`is`** when checking object identity (same memory location).
+* Use **`==`** when checking if values are the same.
 
 ## Comparison Table  
 
