@@ -1,7 +1,8 @@
 ### Lesson_03_04
-### Python Quiz Questions
 
-## **What will be the output of `~5` in Python?**
+## Python Quiz Questions
+
+#### **What will be the output of `~5` in Python?**
 Select one answer A) 4 B) -6 C) 5 D) -5
 
 #### **Which of the following is a binary operator?**
