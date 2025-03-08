@@ -66,16 +66,6 @@ A **binary operator** is an operator that operates on **two operands**.
 - `%` (Modulus): `5 % 2 = 1`  
 - `**` (Exponentiation): `2 ** 3 = 8`
 
-**modulus (%) operator in Python returns the remainder of a division.**
-
-What is the output of 8 % 3? 8÷3=2 (quotient), remainder 2   
-
-**// (floor division) operator in Python performs division but rounds down to the nearest whole number (integer).**
-
-What is the result of 15 // 4?   15÷4=3.75  
-Since floor division rounds down to the nearest integer, the result is 3.
-
-
 ### 2. Comparison (Relational) Operators  
 - `==` (Equal to): `5 == 3 → False`  
 - `!=` (Not equal to): `5 != 3 → True`  
@@ -93,17 +83,31 @@ Since floor division rounds down to the nearest integer, the result is 3.
 - `|` (Bitwise OR): `5 | 3 → 7`  
 - `^` (Bitwise XOR): `5 ^ 3 → 6`  
 - `<<` (Left Shift): `5 << 1 → 10`  
-- `>>` (Right Shift): `5 >> 1 → 2`  
+- `>>` (Right Shift): `5 >> 1 → 2`
 
-## Key Point  
+### Key Point  
 A **binary operator** always requires **two operands** (e.g., `a + b`), whereas a **unary operator** (like `not`, `+x`, `-x`, `~x`) operates on **only one operand**.  
 
+#### **modulus (%) operator in Python returns the remainder of a division.**
 
-### Logical Operators in Python  
+What is the output of 8 % 3? 8÷3=2 (quotient), remainder 2  
+
+#### `//=` Operator in Python (floor division) 
+**// (floor division) operator in Python performs division but rounds down to the nearest whole number (integer).**
+
+What is the result of 15 // 4?   15÷4=3.75  
+Since floor division rounds down to the nearest integer, the result is 3.
+
+The `//=` operator is a **floor division assignment operator** in Python. It performs **floor division** and then assigns the result back to `x`.  
+
+#### Syntax  
+```python
+x //= 3  # This is the same as: x = x // 3
+```
+
+## Logical Operators in Python  (and, or , not)
 
 Logical operators in Python are used to combine conditional statements and return Boolean values (`True` or `False`).  
-
-## Logical Operators  
 
 | Operator | Description | Example | Output |
 |----------|-------------|---------|--------|
@@ -117,20 +121,10 @@ print(True and False)  # Output: False
 print(True and True)   # Output: True
 ```
 
-### `//=` Operator in Python (floor division) 
-
-The `//=` operator is a **floor division assignment operator** in Python. It performs **floor division** and then assigns the result back to `x`.  
-
-#### Syntax  
-```python
-x //= 3  # This is the same as: x = x // 3
-```
-
 ## Identity Operators in Python  (is, is not)
 
 Identity operators in Python are used to **compare the memory location** of two objects.  
 
-## Identity Operators  
 | Operator | Description | Example | Output |
 |----------|-------------|---------|--------|
 | `is` | Returns `True` if both variables refer to the **same object** in memory | `a is b` | `True` |
@@ -173,7 +167,7 @@ In Python, `==` and `is` are used for different purposes:
 | `==` | Checks if values are equal | `[1, 2, 3] == [1, 2, 3]` | `True` |
 | `is` | Checks if two variables refer to the same object in memory | `[1, 2, 3] is [1, 2, 3]` | `False` |
 
-## Example Code  
+#### Example Code  
 ```python
 a = [1, 2, 3]
 b = [1, 2, 3]
@@ -185,11 +179,9 @@ print(a is b)  # Output: False (Different memory locations)
 print(a is c)  # Output: True (Same memory location)
 ```
 
-# Membership Operators in Python  
+## Membership Operators in Python  
 
 Membership operators in Python are used to check if a value exists in a **sequence** (such as a list, tuple, string, or dictionary).  
-
-## Membership Operators  
 
 - **in** checks if a **value exists in a sequence**.
 - **not in** checks if a **value does NOT exist in a sequence**.
@@ -199,7 +191,7 @@ Membership operators in Python are used to check if a value exists in a **sequen
 | `in` | Returns `True` if the value exists in the sequence | `"a" in "apple"` | `True` |
 | `not in` | Returns `True` if the value does not exist in the sequence | `"z" not in "apple"` | `True` |
 
-## Example Code  
+#### Example Code  
 
 ```python
 # Using 'in'
