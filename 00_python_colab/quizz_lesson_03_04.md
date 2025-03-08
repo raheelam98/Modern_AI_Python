@@ -47,6 +47,7 @@ Select one answer A) True B) False C) None D) Error
 ###### **Which membership operator checks if an element exists in a sequence?**
 Select one answer A) `in` B) `not in` C) `is` D) `==`
 
+# Explanation
 
 **The ~ (bitwise NOT) operator in Python inverts all bits of a number and is equivalent to -(n+1).**
 
