@@ -1,170 +1,50 @@
-
 ### Lesson_03_04
+### Python Quiz Questions
 
-Python Quiz Questions
-
-What will be the output of ~5 in Python?
-
+## **What will be the output of `~5` in Python?**
 Select one answer A) 4 B) -6 C) 5 D) -5
 
-Which of the following is a binary operator?
+#### **Which of the following is a binary operator?**
+Select one answer A) `+` B) `-` C) `*` D) All of the above
 
-Select one answer A) + B) - C) * D) All of the above
-
-What does the // operator do in Python?
-
+#### **What does the `//` operator do in Python?**
 Select one answer A) Exponentiation B) Floor division C) Modulus D) Division
 
-What is the output of 8 % 3?
-
+#### **What is the output of `8 % 3`?**
 Select one answer A) 2 B) 5 C) 3 D) 8
 
-What will 5 == 5.0 return in Python?
-
+#### **What will `5 == 5.0` return in Python?**
 Select one answer A) True B) False C) Error D) None
 
-What is the result of 8 <= 8?
-
+#### **What is the result of `8 <= 8`?**
 Select one answer A) True B) False C) None D) Error
 
-What is the output of not (True or False)?
-
+#### **What is the output of `not (True or False)`?**
 Select one answer A) True B) False C) None D) Error
 
-What is the meaning of x //= 3?
+#### **What is the meaning of `x //= 3`?**
+Select one answer A) `x = x / 3` B) `x = x * 3` C) `x = x // 3` D) `x = x % 3`
 
-Select one answer A) x = x / 3 B) x = x * 3 C) x = x // 3 D) x = x % 3
-
-What is the result of x *= 2 when x = 4?
-
+#### **What is the result of `x *= 2` when `x = 4`?**
 Select one answer A) 6 B) 8 C) 4 D) 2
 
-Which of the following is an identity operator?
+#### **Which of the following is an identity operator?**
+Select one answer A) `==` B) `is` C) `!=` D) `>=`
 
-Select one answer A) == B) is C) != D) >=
+#### **What is the difference between `==` and `is`?**
+Select one answer A) `==` checks value equality, `is` checks reference B) `is` checks value equality, `==` checks reference C) They are the same D) `is` is used only for numbers
 
-What is the difference between == and is?
+#### **Which of the following is a membership operator?**
+Select one answer A) `in` B) `not in` C) Both A and B D) None of the above
 
-Select one answer A) == checks value equality, is checks reference B) is checks value equality, == checks reference C) They are the same D) is is used only for numbers
-
-Which of the following is a membership operator?
-
-Select one answer A) in B) not in C) Both A and B D) None of the above
-
-What is the result of 'a' in 'apple'?
-
+#### **What is the result of `'a' in 'apple'`?**
 Select one answer A) True B) False C) None D) Error
 
-What will 'z' not in 'pizza' return?
-
+#### **What will `'z' not in 'pizza'` return?**
 Select one answer A) True B) False C) None D) Error
 
-Which membership operator checks if an element exists in a sequence?
-
-Select one answer A) in B) not in C) is D) ==
-
-
-
-# check above 
-
-What will be the output of ~5 in Python?
-
-Select one answer
-A) 4  B) -6 C) 5 D) -5
-
-Which of the following is a binary operator?
-
-Select one answer
-A) + B) - C) * D) All of the above
-
-What does the // operator do in Python?
-
-Select one answer
-A) Exponentiation B) Floor division C) Modulus D) Division
-
-What is the output of 8 % 3?
-Select one answer
-A) 2
-B) 5
-C) 3
-D) 8
-
-What will 5 == 5.0 return in Python?
-Select one answer
-A) True
-B) False
-C) Error
-D) None
-
-What is the result of 8 <= 8?
-Select one answer
-A) True
-B) False
-C) None
-D) Error
-
-What is the output of not (True or False)?
-Select one answer
-A) True
-B) False
-C) None
-D) Error
-
-What is the meaning of x //= 3?
-Select one answer
-A) x = x / 3
-B) x = x * 3
-C) x = x // 3
-D) x = x % 3
-
-What is the result of x *= 2 when x = 4?
-Select one answer
-A) 6
-B) 8
-C) 4
-D) 2
-
-Which of the following is an identity operator?
-Select one answer
-A) ==
-B) is
-C) !=
-D) >=
-
-What is the difference between == and is?
-Select one answer
-A) == checks value equality, is checks reference
-B) is checks value equality, == checks reference
-C) They are the same
-D) is is used only for numbers
-
-Which of the following is a membership operator?
-Select one answer
-A) in
-B) not in
-C) Both A and B
-D) None of the above
-
-What is the result of 'a' in 'apple'?
-Select one answer
-A) True
-B) False
-C) None
-D) Error
-
-What will 'z' not in 'pizza' return?
-Select one answer
-A) True
-B) False
-C) None
-D) Error
-
-Which membership operator checks if an element exists in a sequence?
-Select one answer
-A) in
-B) not in
-C) is
-D) ==
+###### **Which membership operator checks if an element exists in a sequence?**
+Select one answer A) `in` B) `not in` C) `is` D) `==`
 
 
 **The ~ (bitwise NOT) operator in Python inverts all bits of a number and is equivalent to -(n+1).**
