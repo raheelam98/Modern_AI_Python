@@ -30,7 +30,7 @@
 #### Lesson_02_Q_09. **What is the output of `type([])` in Python?**
    - A) <class 'array'> - B) <class 'list'> - C) <class 'dict'> - D) <class 'set'>
 
-### Lesson_02_Q_10. **Which data type can have only unique elements in Python?**
+#### Lesson_02_Q_10. **Which data type can have only unique elements in Python?**
    - A) List - B) Set - C) Tuple - D) String
 
 #### Lesson_02_Q_11. **What is the data type of `3 == 5` in Python?**
@@ -77,7 +77,7 @@
 
 #### Lesson_02_Q_25. **Which function returns the Unicode code point for a character?**
    - A) unicode() - B) ord() - C) chr() - D) code()
-
+ 
 ---
 
 ## Answers Lesson 02 DataTypes
