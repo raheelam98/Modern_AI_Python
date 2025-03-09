@@ -77,14 +77,6 @@ B) The decimal part is truncated
 A) To check if a value is an instance of a class
 
 ---
-
-
-# test above
-
----
----
-
-## Python Quiz Questions
  
 ## Python Data Types (Lesson 02): 25 MCQ Questions
 
