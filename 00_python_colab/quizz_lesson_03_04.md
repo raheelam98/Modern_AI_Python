@@ -163,6 +163,24 @@ Select one answer A) `in` B) `not in` C) `is` D) `==`
 
 ---
 
+What will be the output of ~5 in Python? B) -6
+Which of the following is a binary operator? D) All of the above
+What does the // operator do in Python? B) Floor division
+What is the output of 8 % 3? A) 2
+What will 5 == 5.0 return in Python? A) True
+What is the result of 8 <= 8? A) True
+What is the output of not (True or False)? B) False
+What is the meaning of x //= 3? C) x = x // 3
+What is the result of x = 2 when x = 4? B) 8
+Which of the following is an identity operator? B) is
+What is the difference between == and is? A) == checks value equality, is checks reference
+Which of the following is a membership operator? C) Both A and B
+What is the result of 'a' in 'apple'? A) True
+What will 'z' not in 'pizza' return? B) False
+Which membership operator checks if an element exists in a sequence? A) in
+
+---
+
 # Explanation
 
 **The ~ (bitwise NOT) operator in Python inverts all bits of a number and is equivalent to -(n+1).**
