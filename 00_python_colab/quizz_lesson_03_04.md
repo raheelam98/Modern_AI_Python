@@ -112,6 +112,7 @@ B) The decimal part is truncated
 **What is the purpose of the `isinstance()` function in Python?**  
 A) To check if a value is an instance of a class
 
+### ---
 
  ## Lesson_03_04
 
@@ -159,6 +160,8 @@ Select one answer A) True B) False C) None D) Error
 
 ###### **Which membership operator checks if an element exists in a sequence?**
 Select one answer A) `in` B) `not in` C) `is` D) `==`
+
+### ---
 
 # Explanation
 
