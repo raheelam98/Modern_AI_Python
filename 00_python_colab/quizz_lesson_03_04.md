@@ -165,7 +165,7 @@ Select one answer A) `in` B) `not in` C) `is` D) `==`
 ## Answer Lesson_03_04
 
 **What will be the output of ~5 in Python?**  
-B) -6
+B) -6  **The ~ (bitwise NOT) operator in Python inverts all bits of a number and is equivalent to -(n+1).**
 
 **Which of the following is a binary operator?**  
 D) All of the above
