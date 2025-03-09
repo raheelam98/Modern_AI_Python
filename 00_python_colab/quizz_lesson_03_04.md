@@ -1,4 +1,4 @@
-
+ 
 ## Python Quiz Questions
  
 ## Python Data Types (Lesson 02): 25 MCQ Questions
