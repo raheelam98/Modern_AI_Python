@@ -1,3 +1,136 @@
+
+## Python Data Types Quiz
+
+### Lesson_02_Q_01. **Which of the following is an immutable data type in Python?**
+   - A) List - B) Dictionary - C) Set - D) Tuple
+
+### Lesson_02_Q_02. **What is the data type of `5 / 2` in Python 3?**
+   - A) int - B) float - C) complex - D) rational
+
+### Lesson_02_Q_03. **Which function converts a string to an integer in Python?**
+   - A) str() - B) float() - C) int() - D) chr()
+
+### Lesson_02_Q_04. **What is the data type of `True` in Python?**
+   - A) int - B) string - C) bool - D) None
+
+### Lesson_02_Q_05. **Which of these is not a sequence type in Python?**
+   - A) List - B) Dictionary - C) String - D) Tuple
+
+### Lesson_02_Q_06. **What does `type(None)` return in Python?**
+   - A) NullType - B) NoneType - C) void - D) null
+
+### Lesson_02_Q_07. **What is the value of `type(1j)` in Python?**
+   - A) int - B) float - C) imaginary - D) complex
+
+### Lesson_02_Q_08. **Which data type is used to store multiple items in a single variable?**
+   - A) List - B) Integer - C) String - D) Boolean
+
+### Lesson_02_Q_09. **What is the output of `type([])` in Python?**
+   - A) <class 'array'> - B) <class 'list'> - C) <class 'dict'> - D) <class 'set'>
+
+### Lesson_02_Q_10. **Which data type can have only unique elements in Python?**
+   - A) List - B) Set - C) Tuple - D) String
+
+### Lesson_02_Q_11. **What is the data type of `3 == 5` in Python?**
+   - A) bool - B) int - C) NoneType - D) comparison
+
+### Lesson_02_Q_12. **Which of the following is a mutable data type?**
+   - A) String - B) Tuple - C) List - D) Integer
+
+### Lesson_02_Q_13. **What is the data type of the result of `range(5)`?**
+   - A) tuple - B) list - C) range - D) iterator
+
+### Lesson_02_Q_14. **Which function checks if all characters in a string are alphanumeric?**
+   - A) str.isdigit() - B) str.isalpha() - C) str.isalnum() - D) str.isdecimal()
+
+### Lesson_02_Q_15. **What is the data type of `{"apple", "banana", "cherry"}`?**
+   - A) list - B) set - C) tuple - D) dictionary
+
+### Lesson_02_Q_16. **Which data type is ordered, changeable, and does not allow duplicates?**
+   - A) List - B) Dictionary - C) Tuple - D) Set
+
+### Lesson_02_Q_17. **What is the result of `type("42")`?**
+   - A) <class 'int'> - B) <class 'string'> - C) <class 'str'> - D) <class 'char'>
+
+### Lesson_02_Q_18. **Which data type is used to store key-value pairs?**
+   - A) List - B) Set - C) Dictionary - D) Tuple
+
+### Lesson_02_Q_19. **What will `isinstance(5, int)` return?**
+   - A) True - B) False - C) 1 - D) "int"
+
+### Lesson_02_Q_20. **Which of the following is not a built-in Python data type?**
+   - A) array - B) tuple - C) list - D) set
+
+### Lesson_02_Q_21. **What is the type of `5//2` in Python?**
+   - A) float - B) division - C) int - D) rational
+
+### Lesson_02_Q_22. **What will `type(b"hello")` return?**
+   - A) <class 'str'> - B) <class 'bytes'> - C) <class 'bytearray'> - D) <class 'buffer'>
+
+### Lesson_02_Q_23. **Which method converts a number to a binary string?**
+   - A) to_binary() - B) bin() - C) hex() - D) int_to_bin()
+
+### Lesson_02_Q_24. **What is the data type of `{"name": "John", "age": 30}`?**
+   - A) List - B) Set - C) Tuple - D) Dictionary
+
+### Lesson_02_Q_25. **Which function returns the Unicode code point for a character?**
+   - A) unicode() - B) ord() - C) chr() - D) code()
+
+---
+
+## Answers Lesson 02 DataTypes
+
+**What will be the output of ~5 in Python?**  
+B) -6
+
+**Which of the following is a binary operator?**  
+D) All of the above
+
+**What does the // operator do in Python?**  
+B) Floor division
+
+**What is the output of 8 % 3?**  
+A) 2
+
+**What will 5 == 5.0 return in Python?**  
+A) True
+
+**What is the result of 8 <= 8?**  
+A) True
+
+**What is the output of not (True or False)?**  
+B) False
+
+**What is the meaning of x //= 3?**  
+C) x = x // 3
+
+**What is the result of x *= 2 when x = 4?**  
+B) 8
+
+**Which of the following is an identity operator?**  
+B) is
+
+**What is the difference between == and is?**  
+A) == checks value equality, is checks reference
+
+**Which of the following is a membership operator?**  
+C) Both A and B
+
+**What is the result of 'a' in 'apple'?**  
+A) True
+
+**What will 'z' not in 'pizza' return?**  
+B) False
+
+**Which membership operator checks if an element exists in a sequence?**  
+A) in
+
+
+# test above 
+
+---
+
+---
  
 ## Python Quiz Questions
  
@@ -162,22 +295,52 @@ Select one answer A) True B) False C) None D) Error
 Select one answer A) `in` B) `not in` C) `is` D) `==`
 
 ---
+## Answer Lesson_03_04
 
-What will be the output of ~5 in Python? B) -6
-Which of the following is a binary operator? D) All of the above
-What does the // operator do in Python? B) Floor division
-What is the output of 8 % 3? A) 2
-What will 5 == 5.0 return in Python? A) True
-What is the result of 8 <= 8? A) True
-What is the output of not (True or False)? B) False
-What is the meaning of x //= 3? C) x = x // 3
-What is the result of x = 2 when x = 4? B) 8
-Which of the following is an identity operator? B) is
-What is the difference between == and is? A) == checks value equality, is checks reference
-Which of the following is a membership operator? C) Both A and B
-What is the result of 'a' in 'apple'? A) True
-What will 'z' not in 'pizza' return? B) False
-Which membership operator checks if an element exists in a sequence? A) in
+**What will be the output of ~5 in Python?**  
+B) -6
+
+**Which of the following is a binary operator?**  
+D) All of the above
+
+**What does the // operator do in Python?**  
+B) Floor division
+
+**What is the output of 8 % 3?**  
+A) 2
+
+**What will 5 == 5.0 return in Python?**  
+A) True
+
+**What is the result of 8 <= 8?**  
+A) True
+
+**What is the output of not (True or False)?**  
+B) False
+
+**What is the meaning of x //= 3?**  
+C) x = x // 3
+
+**What is the result of x *= 2 when x = 4?**  
+B) 8
+
+**Which of the following is an identity operator?**  
+B) is
+
+**What is the difference between == and is?**  
+A) == checks value equality, is checks reference
+
+**Which of the following is a membership operator?**  
+C) Both A and B
+
+**What is the result of 'a' in 'apple'?**  
+A) True
+
+**What will 'z' not in 'pizza' return?**  
+B) False
+
+**Which membership operator checks if an element exists in a sequence?**  
+A) in
 
 ---
 
