@@ -1,6 +1,6 @@
 
 ## Python Quiz Questions
-
+ 
 ## Python Data Types (Lesson 02): 25 MCQ Questions
 
 #### Lesson_02_Q_01. **Which of the following is an immutable data type in Python?**
