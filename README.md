@@ -3,7 +3,7 @@ Python powers AI innovation in machine learning, deep learning, natural language
 
 [Modern AI Python - Github](https://github.com/panaversity/learn-modern-ai-python/tree/main/00_python_colab)
 
-## 🔹 Key Differences Between Mutable and Immutable Types
+## Key Differences Between Mutable and Immutable Types
 
 **Mutable Data Types (Can Be Changed After Creation)**  `list`, `dict`, `set`, `bytearray`
 
@@ -15,3 +15,14 @@ Python powers AI innovation in machine learning, deep learning, natural language
 | **Memory efficient?** | 🚀 Can modify in place              | 📌 Creates new objects                               |
 | **Hashable?**         | ❌ No *(except `frozenset`)*        | ✅ Yes *(used as dictionary keys)*                   |
 | **Examples**          | `list`, `dict`, `set`, `bytearray`  | `int`, `float`, `str`, `tuple`, `frozenset`, `bytes` |
+
+## Python Data Types Table
+
+| Data Type                   | Ordered? | Changeable? | Allows Duplicates? | Category | Used to Store |
+|-----------------------------|---------|-------------|-------------------|----------|---------------|
+| **Set (`set {}`)**         | ❌ No  | ✅ Yes (Mutable) | ❌ No | Set | Unique items (any data type) |
+| **Dictionary (`dict {}`)** | ✅ Yes (Python 3.7+) | ✅ Yes (Mutable) | ❌ No (Keys must be unique) | Mapping | Key-value pairs |
+| **List (`list []`)**       | ✅ Yes  | ✅ Yes (Mutable) | ✅ Yes  | Sequence | Multiple items (any data type) |
+| **Tuple (`tuple ()`)**     | ✅ Yes  | ❌ No (Immutable) | ✅ Yes | Sequence | Multiple items (any data type) |
+| **String (`str '' or ""`)**  | ✅ Yes  | ❌ No (Immutable) | ✅ Yes | Sequence | Text data |
+
