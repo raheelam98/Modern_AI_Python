@@ -71,9 +71,7 @@ Perform mathematical calculations:
 | //       | Floor Division      | 5 // 2 = 2 (removes decimal part) |
 | %        | Modulus (remainder) | 5 % 2 = 1                         |
 | **       | Exponentiation      | 5 ** 2 = 25                       |
-|          |                     |                                   |
-
-
+                               
 <br>
 
 ### 2. Comparison (Relational) Operators  
