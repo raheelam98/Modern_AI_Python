@@ -34,7 +34,7 @@ Python powers AI innovation in machine learning, deep learning, natural language
 
 ## Python Operators  
 
-## 1. Arithmetic Operators  
+### 1. Arithmetic Operators  
 Perform mathematical calculations:  
 - `+` (Addition): `5 + 3 = 8`  
 - `-` (Subtraction): `5 - 3 = 2`  
