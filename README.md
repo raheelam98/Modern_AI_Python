@@ -163,4 +163,53 @@ print("Java" not in text)  # True
 ---
 &nbsp;
 
+Commonly used string methods:
 
+1. **`split()`**: splits a string into a list of substrings based on a delimiter
+2. **`join()`**: joins a list of strings into a single string
+3. **`replace()`**: replaces a substring with another substring
+4. **`find()`**: returns the index of a substring
+5. **`count()`**: returns the number of occurrences of a substring
+
+## `index()` vs `find()` in Python  
+
+Both methods are used to **find a substring within a string**, but they behave differently when the substring is not found.
+
+### 1. `index()`
+- Searches for a substring in a string.
+- **Raises an error** (`ValueError`) if the substring is not found.
+- Can specify optional `start` and `end` positions.
+
+#### Example:
+```python
+text = "Hello, world!"
+print(text.index("world"))  # Output: 7
+print(text.index("Python"))  # Raises ValueError
+```
+
+### 2. `find()`
+- Similar to `index()`, but **returns `-1` instead of raising an error** when the substring is not found.  
+- Safer to use when you’re unsure if the substring exists.  
+
+#### Example:
+```python
+text = "Hello, world!"
+print(text.find("world"))  # Output: 7
+print(text.find("Python"))  # Output: -1
+```
+
+#### Example:
+```python
+text = "apple banana apple cherry apple"
+substring = "apple"
+
+index = text.find(substring)
+while index != -1:
+    print(f"Found at index: {index}")
+    index = text.find(substring, index + 1)  # Move past the last found position
+
+## Output:
+Found at index: 0
+Found at index: 13
+Found at index: 27
+```
