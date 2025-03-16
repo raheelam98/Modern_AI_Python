@@ -19,7 +19,7 @@ Python powers AI innovation in machine learning, deep learning, natural language
 | **Examples**          | `list`, `dict`, `set`, `bytearray`  | `int`, `float`, `str`, `tuple`, `frozenset`, `bytes` |
 
 ---
-\n
+
 
 ### Python Data Types Table
 
@@ -32,7 +32,7 @@ Python powers AI innovation in machine learning, deep learning, natural language
 | **String (`str '' or ""`)**  | ✅ Yes  | ❌ No (Immutable) | ✅ Yes | Sequence | Text data |
 
 ---
-\n
+
 
 ## Python Operators  
 
