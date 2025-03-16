@@ -50,18 +50,62 @@ Python powers AI innovation in machine learning, deep learning, natural language
 
 ## Python Operators  
 
+#### 1. Arithmetic Operators  
+| Operator | Name                | Example                           |
+|----------|---------------------|-----------------------------------|
+| +        | Addition            | `5 + 2 = 7`                      |
+| -        | Subtraction         | `5 - 2 = 3`                      |
+| *        | Multiplication      | `5 * 2 = 10`                     |
+| /        | Division (float)    | `5 / 2 = 2.5`                     |
+| //       | Floor Division      | `5 // 2 = 2` (removes decimal part) |
+| %        | Modulus (remainder) | `5 % 2 = 1` (returns remainder)  |
+| **       | Exponentiation      | `5 ** 2 = 25`                    |                             
+
+#### 2. Comparison (Relational) Operators  
+| Operator | Name                     | Example      | Output  |
+|----------|--------------------------|-------------|---------|
+| ==       | Equal to                 | `5 == 3`    | `False` |
+| !=       | Not equal to             | `5 != 3`    | `True`  |
+| >        | Greater than             | `5 > 3`     | `True`  |
+| <        | Less than                | `5 < 3`     | `False` |
+| >=       | Greater than or equal to | `5 >= 3`    | `True`  |
+| <=       | Less than or equal to    | `5 <= 3`    | `False` |
+
+#### 3. Logical Operators  
+| Operator | Description                          | Example         | Output  |
+|----------|--------------------------------------|----------------|---------|
+| and      | Returns `True` if both conditions are `True` | `True and False` | `False` |
+| or       | Returns `True` if at least one condition is `True` | `True or False` | `True`  |
+| not      | Reverses the Boolean value         | `not True`      | `False` |
+
+#### 4. Bitwise Operators  
+| Operator | Name            | Example            | Output   |
+|----------|----------------|--------------------|---------|
+| &        | Bitwise AND     | `5 & 3`           | `1` (Binary: `101 & 011 = 001`) |
+| \|       | Bitwise OR      | `5 | 3`           | `7` (Binary: `101 | 011 = 111`) |
+| ^        | Bitwise XOR     | `5 ^ 3`           | `6` (Binary: `101 ^ 011 = 110`) |
+| ~        | Bitwise NOT     | `~5`              | `-6` (Inverts all bits) |
+| <<       | Left Shift      | `5 << 1`          | `10` (Binary: `1010`) |
+| >>       | Right Shift     | `5 >> 1`          | `2` (Binary: `10`) |
+
+#### 5. Identity Operators  
+| Operator | Description                               | Example   | Output |
+|----------|-------------------------------------------|-----------|--------|
+| is       | Returns `True` if both variables refer to the same object | `a is b`     | `True`  |
+| is not   | Returns `True` if they do not refer to the same object   | `a is not b` | `True`  |
+
+#### 6. Membership Operators  
+| Operator | Description                               | Example               | Output |
+|----------|-------------------------------------------|-----------------------|--------|
+| in       | Returns `True` if a value exists in a sequence | `2 in [1, 2, 3]`      | `True`  |
+| not in   | Returns `True` if a value does not exist in a sequence | `4 not in [1, 2, 3]` | `True`  |
+
+# test end
+---
+
 ### 1. Arithmetic Operators  
-Perform mathematical calculations:  
-- `+` (Addition): `5 + 3 = 8`  
-- `-` (Subtraction): `5 - 3 = 2`  
-- `*` (Multiplication): `5 * 3 = 15`  
-- `/` (Division): `5 / 2 = 2.5`  
-- `//` (Floor Division): `5 // 2 = 2`  (removes decimal part) 
-- `%` (Modulus): `5 % 2 = 1` (returns remainder)  
-- `**` (Exponentiation): `2 ** 3 = 8`
 
 <br>
-
 | Operator | Name                | Example                           |
 |----------|---------------------|-----------------------------------|
 | +        | Addition            | 5 + 2 = 7                         |
@@ -70,8 +114,7 @@ Perform mathematical calculations:
 | /        | Division (float)    | 5 / 2 = 2.5                       |
 | //       | Floor Division      | 5 // 2 = 2 (removes decimal part) |
 | %        | Modulus (remainder) | 5 % 2 = 1 (returns remainder)     |
-| **       | Exponentiation      | 5 ** 2 = 25                       |
-                               
+| **       | Exponentiation      | 5 ** 2 = 25                       |                             
 <br>
 
 ### 2. Comparison (Relational) Operators  
