@@ -61,7 +61,21 @@ Python powers AI innovation in machine learning, deep learning, natural language
 | %        | Modulus (remainder) | `5 % 2 = 1` (returns remainder)  |
 | **       | Exponentiation      | `5 ** 2 = 25`                    |                             
 
+#### Assignment Operators**
+Used to assign values to variables.
+
+| Operator | Example | Equivalent To |
+|----------|---------|---------------|
+| =        | x = 5   | x = 5         |
+| +=       | x += 3  | x = x + 3     |
+| -=       | x -= 3  | x = x - 3     |
+| *=       | x *= 3  | x = x * 3     |
+| /=       | x /= 3  | x = x / 3     |
+| //=      | x //= 3 | x = x // 3    |
+
+
 #### 2. Comparison (Relational) Operators  
+Used to compare two values.
 | Operator | Name                     | Example      | Output  |
 |----------|--------------------------|-------------|---------|
 | ==       | Equal to                 | `5 == 3`    | `False` |
@@ -72,7 +86,7 @@ Python powers AI innovation in machine learning, deep learning, natural language
 | <=       | Less than or equal to    | `5 <= 3`    | `False` |
 
 #### 3. Logical Operators  (`and`, `or`, `not`)
-Logical operators in Python are used to combine conditional statements and return Boolean values (`True` or `False`).
+Used to combine conditional statements and return Boolean values (`True` or `False`).
 | Operator | Description                          | Example         | Output  |
 |----------|--------------------------------------|----------------|---------|
 | and      | Returns `True` if both conditions are `True` | `True and False` | `False` |
@@ -92,8 +106,7 @@ Logical operators in Python are used to combine conditional statements and retur
 **`~x (Bitwise NOT)` is equivalent to `-(x + 1)` :**  `~` (Bitwise NOT): ~5 → -6 (Inverts all bits)  5=−(5+1)=−6
    
 #### 5. Identity Operators (`is`, `is not`) 
-Identity operators in Python are used to compare the memory location of two objects.
-
+Used to compare memory locations of two objects.
 | Operator | Description                               | Example   | Output |
 |----------|-------------------------------------------|-----------|--------|
 | is       | Returns `True` if both variables refer to the same object | `a is b`     | `True`  |
@@ -102,7 +115,7 @@ Identity operators in Python are used to compare the memory location of two obje
 
 #### 6. Membership Operators (`in`, `not in`)
 
-Membership operators in Python are used to check if a value exists in a sequence (such as a list, tuple, string, or dictionary).
+Used to check if a value exists in a sequence (list, tuple, set, dictionary,string, etc.).
 - `in` checks if a value exists in a sequence.  
 - `not in` checks if a value does **not** exist in a sequence.
   
