@@ -94,3 +94,55 @@ print("Python" in text)  # True
 print("Java" not in text)  # True
 ```
 
+### Explanation
+
+### Logical Operators in Python (`and`, `or`, `not`)
+
+Logical operators in Python are used to combine conditional statements and return Boolean values (`True` or `False`).
+
+| Operator | Description | Example | Output |
+|----------|------------|---------|--------|
+| `and`   | Returns `True` if both conditions are `True` | `True and False` | `False` |
+| `or`    | Returns `True` if at least one condition is `True` | `True or False` | `True` |
+| `not`   | Reverses the Boolean value | `not True` | `False` |
+
+
+### Identity Operators in Python (`is`, `is not`)
+
+Identity operators in Python are used to compare the memory location of two objects.
+
+| Operator | Description | Example | Output |
+|----------|------------|---------|--------|
+| `is`    | Returns `True` if both variables refer to the same object in memory | `a is b` | `True` |
+| `is not` | Returns `True` if both variables refer to different objects in memory | `a is not b` | `True` |
+
+
+### Membership Operators in Python
+
+Membership operators in Python are used to check if a value exists in a sequence (such as a list, tuple, string, or dictionary).
+
+- `in` checks if a value exists in a sequence.  
+- `not in` checks if a value does **not** exist in a sequence.  
+
+| Operator  | Description | Example | Output |
+|-----------|------------|---------|--------|
+| `in`      | Returns `True` if the value exists in the sequence | `"a" in "apple"` | `True` |
+| `not in`  | Returns `True` if the value does not exist in the sequence | `"z" not in "apple"` | `True` |
+
+
+## Difference Between `==` and `is` in Python  
+
+- `==` **compares values** (checks if two objects have the same content).  
+- `is` **compares identity** (checks if two variables point to the same memory location).  
+
+### Comparison Table  
+
+| Operator | Purpose | Example | Output |
+|----------|---------|---------|--------|
+| `==`    | Checks if values are equal | `[1, 2, 3] == [1, 2, 3]` | `True` |
+| `is`    | Checks if two variables refer to the same object | `[1, 2, 3] is [1, 2, 3]` | `False` |
+
+
+---
+
+
