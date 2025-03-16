@@ -3,7 +3,9 @@ Python powers AI innovation in machine learning, deep learning, natural language
 
 [Modern AI Python - Github](https://github.com/panaversity/learn-modern-ai-python/tree/main/00_python_colab)
 
-## Key Differences Between Mutable and Immutable Types
+---
+
+### Key Differences Between Mutable and Immutable Types
 
 **Mutable Data Types (Can Be Changed After Creation)**  `list`, `dict`, `set`, `bytearray`
 
@@ -16,7 +18,9 @@ Python powers AI innovation in machine learning, deep learning, natural language
 | **Hashable?**         | ❌ No *(except `frozenset`)*        | ✅ Yes *(used as dictionary keys)*                   |
 | **Examples**          | `list`, `dict`, `set`, `bytearray`  | `int`, `float`, `str`, `tuple`, `frozenset`, `bytes` |
 
-## Python Data Types Table
+---
+
+### Python Data Types Table
 
 | Data Type                   | Ordered? | Changeable? | Allows Duplicates? | Category | Used to Store |
 |-----------------------------|---------|-------------|-------------------|----------|---------------|
