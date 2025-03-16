@@ -4,6 +4,7 @@ Python powers AI innovation in machine learning, deep learning, natural language
 [Modern AI Python - Github](https://github.com/panaversity/learn-modern-ai-python/tree/main/00_python_colab)
 
 ---
+&nbsp;&nbsp;
 
 ### Key Differences Between Mutable and Immutable Types
 
