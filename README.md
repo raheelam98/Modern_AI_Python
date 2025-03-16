@@ -32,6 +32,18 @@ Python powers AI innovation in machine learning, deep learning, natural language
 | **Tuple (`tuple ()`)**     | ✅ Yes  | ❌ No (Immutable) | ✅ Yes | Sequence | Multiple items (any data type) |
 | **String (`str '' or ""`)**  | ✅ Yes  | ❌ No (Immutable) | ✅ Yes | Sequence | Text data |
 
+**Number Types:**  **`int`** - Integer (whole number), **`float`** - Floating-point number (decimal), **`complex`** - Complex number (e.g., `3 + 4j`)  
+
+**Sequence Types:**  **`list`** - Ordered, mutable collection of items, **`tuple`** - Ordered, immutable collection of items, **`str`** - String (sequence of characters)  
+
+**Mapping Type:**  **`dict`** - Dictionary (key-value pairs)  
+
+**Set Types:**  **`set`** - Unordered collection of unique items, **`frozenset`** - Immutable set  
+
+**Boolean Type:**  **`bool`** - Represents `True` or `False`  
+
+**Special Types:**  **`NoneType`** - Represents no value (`None`), **`bytes`** - Immutable sequence of bytes, **`bytearray`** - Mutable sequence of bytes  
+
   
 ---
 &nbsp;
