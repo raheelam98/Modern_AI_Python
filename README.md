@@ -71,7 +71,8 @@ Python powers AI innovation in machine learning, deep learning, natural language
 | >=       | Greater than or equal to | `5 >= 3`    | `True`  |
 | <=       | Less than or equal to    | `5 <= 3`    | `False` |
 
-#### 3. Logical Operators  
+#### 3. Logical Operators  (`and`, `or`, `not`)
+Logical operators in Python are used to combine conditional statements and return Boolean values (`True` or `False`).
 | Operator | Description                          | Example         | Output  |
 |----------|--------------------------------------|----------------|---------|
 | and      | Returns `True` if both conditions are `True` | `True and False` | `False` |
@@ -90,17 +91,32 @@ Python powers AI innovation in machine learning, deep learning, natural language
 
 **`~x (Bitwise NOT)` is equivalent to `-(x + 1)` :**  `~` (Bitwise NOT): ~5 → -6 (Inverts all bits)  5=−(5+1)=−6
    
-#### 5. Identity Operators  
+#### 5. Identity Operators (`is`, `is not`) 
+Identity operators in Python are used to compare the memory location of two objects.
+
 | Operator | Description                               | Example   | Output |
 |----------|-------------------------------------------|-----------|--------|
 | is       | Returns `True` if both variables refer to the same object | `a is b`     | `True`  |
 | is not   | Returns `True` if they do not refer to the same object   | `a is not b` | `True`  |
 
-#### 6. Membership Operators  
+
+#### 6. Membership Operators (`in`, `not in`)
+
+Membership operators in Python are used to check if a value exists in a sequence (such as a list, tuple, string, or dictionary).
+- `in` checks if a value exists in a sequence.  
+- `not in` checks if a value does **not** exist in a sequence.
+  
 | Operator | Description                               | Example               | Output |
 |----------|-------------------------------------------|-----------------------|--------|
 | in       | Returns `True` if a value exists in a sequence | `2 in [1, 2, 3]`      | `True`  |
 | not in   | Returns `True` if a value does not exist in a sequence | `4 not in [1, 2, 3]` | `True`  |
+ 
+
+| Operator  | Description | Example | Output |
+|-----------|------------|---------|--------|
+| `in`      | Returns `True` if the value exists in the sequence | `"a" in "apple"` | `True` |
+| `not in`  | Returns `True` if the value does not exist in the sequence | `"z" not in "apple"` | `True` |
+
 
 Example: Identity Operators  
 ```python
@@ -117,41 +133,7 @@ print("Python" in text)  # True
 print("Java" not in text)  # True
 ```
 
-### Explanation
-
-### Logical Operators in Python (`and`, `or`, `not`)
-
-Logical operators in Python are used to combine conditional statements and return Boolean values (`True` or `False`).
-
-| Operator | Description | Example | Output |
-|----------|------------|---------|--------|
-| `and`   | Returns `True` if both conditions are `True` | `True and False` | `False` |
-| `or`    | Returns `True` if at least one condition is `True` | `True or False` | `True` |
-| `not`   | Reverses the Boolean value | `not True` | `False` |
-
-
-### Identity Operators in Python (`is`, `is not`)
-
-Identity operators in Python are used to compare the memory location of two objects.
-
-| Operator | Description | Example | Output |
-|----------|------------|---------|--------|
-| `is`    | Returns `True` if both variables refer to the same object in memory | `a is b` | `True` |
-| `is not` | Returns `True` if both variables refer to different objects in memory | `a is not b` | `True` |
-
-
-### Membership Operators in Python
-
-Membership operators in Python are used to check if a value exists in a sequence (such as a list, tuple, string, or dictionary).
-
-- `in` checks if a value exists in a sequence.  
-- `not in` checks if a value does **not** exist in a sequence.  
-
-| Operator  | Description | Example | Output |
-|-----------|------------|---------|--------|
-| `in`      | Returns `True` if the value exists in the sequence | `"a" in "apple"` | `True` |
-| `not in`  | Returns `True` if the value does not exist in the sequence | `"z" not in "apple"` | `True` |
-
+### Key Points
 
 ## Difference Between `==` and `is` in Python  
 
