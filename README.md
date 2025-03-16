@@ -69,7 +69,7 @@ Perform mathematical calculations:
 | *        | Multiplication      | 5 * 2 = 10                        |
 | /        | Division (float)    | 5 / 2 = 2.5                       |
 | //       | Floor Division      | 5 // 2 = 2 (removes decimal part) |
-| %        | Modulus (remainder) | 5 % 2 = 1                         |
+| %        | Modulus (remainder) | 5 % 2 = 1 (returns remainder)     |
 | **       | Exponentiation      | 5 ** 2 = 25                       |
                                
 <br>
