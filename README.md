@@ -22,7 +22,7 @@ Python powers AI innovation in machine learning, deep learning, natural language
 ---
 &nbsp;
 
-### Python Data Types Table
+### Python Data Types 
 
 | Data Type                   | Ordered? | Changeable? | Allows Duplicates? | Category | Used to Store |
 |-----------------------------|---------|-------------|-------------------|----------|---------------|
@@ -32,6 +32,7 @@ Python powers AI innovation in machine learning, deep learning, natural language
 | **Tuple (`tuple ()`)**     | ✅ Yes  | ❌ No (Immutable) | ✅ Yes | Sequence | Multiple items (any data type) |
 | **String (`str '' or ""`)**  | ✅ Yes  | ❌ No (Immutable) | ✅ Yes | Sequence | Text data |
 
+  
 ---
 &nbsp;
 
