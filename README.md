@@ -56,9 +56,25 @@ Perform mathematical calculations:
 - `-` (Subtraction): `5 - 3 = 2`  
 - `*` (Multiplication): `5 * 3 = 15`  
 - `/` (Division): `5 / 2 = 2.5`  
-- `//` (Floor Division): `5 // 2 = 2`  
+- `//` (Floor Division): `5 // 2 = 2`  (removes decimal part) 
 - `%` (Modulus): `5 % 2 = 1` (returns remainder)  
-- `**` (Exponentiation): `2 ** 3 = 8`  
+- `**` (Exponentiation): `2 ** 3 = 8`
+
+<br>
+
+| Operator | Name                | Example                           |
+|----------|---------------------|-----------------------------------|
+| +        | Addition            | 5 + 2 = 7                         |
+| -        | Subtraction         | 5 - 2 = 3                         |
+| *        | Multiplication      | 5 * 2 = 10                        |
+| /        | Division (float)    | 5 / 2 = 2.5                       |
+| //       | Floor Division      | 5 // 2 = 2 (removes decimal part) |
+| %        | Modulus (remainder) | 5 % 2 = 1                         |
+| **       | Exponentiation      | 5 ** 2 = 25                       |
+|          |                     |                                   |
+
+
+<br>
 
 ### 2. Comparison (Relational) Operators  
 Compare values and return `True` or `False`:  
