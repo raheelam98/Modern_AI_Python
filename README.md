@@ -69,7 +69,9 @@ Operate at the binary level:
 - `^` (Bitwise XOR): `5 ^ 3` → `6` (Binary: `101 ^ 011 = 110`)  
 - `~` (Bitwise NOT): `~5` → `-6` (Inverts all bits)  
 - `<<` (Left Shift): `5 << 1` → `10` (Binary: `1010`)  
-- `>>` (Right Shift): `5 >> 1` → `2` (Binary: `10`)  
+- `>>` (Right Shift): `5 >> 1` → `2` (Binary: `10`)
+
+   **`~x (Bitwise NOT)` is equivalent to `-(x + 1)`**  `~` (Bitwise NOT): ~5 → -6 (Inverts all bits)  5=−(5+1)=−6
 
 ### 5. Identity Operators  
 Check if two variables reference the same object in memory:  
