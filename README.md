@@ -153,7 +153,7 @@ print("Java" not in text)  # True
 - `==` **compares values** (checks if two objects have the same content).  
 - `is` **compares identity** (checks if two variables point to the same memory location).  
 
-### Comparison Table  
+#### Comparison Table  
 
 | Operator | Purpose | Example | Output |
 |----------|---------|---------|--------|
