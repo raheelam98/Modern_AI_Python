@@ -75,7 +75,7 @@ Used to assign values to variables.
 
 
 #### 2. Comparison (Relational) Operators  
-Used to compare two values.
+Used to compare values and return True or False
 | Operator | Name                     | Example      | Output  |
 |----------|--------------------------|-------------|---------|
 | ==       | Equal to                 | `5 == 3`    | `False` |
@@ -87,6 +87,7 @@ Used to compare two values.
 
 #### 3. Logical Operators  (`and`, `or`, `not`)
 Used to combine conditional statements and return Boolean values (`True` or `False`).
+
 | Operator | Description                          | Example         | Output  |
 |----------|--------------------------------------|----------------|---------|
 | and      | Returns `True` if both conditions are `True` | `True and False` | `False` |
