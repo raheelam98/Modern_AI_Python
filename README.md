@@ -4,7 +4,7 @@ Python powers AI innovation in machine learning, deep learning, natural language
 [Modern AI Python - Github](https://github.com/panaversity/learn-modern-ai-python/tree/main/00_python_colab)
 
 ---
-&nbsp;&nbsp;
+&nbsp;
 
 ### Key Differences Between Mutable and Immutable Types
 
@@ -20,7 +20,7 @@ Python powers AI innovation in machine learning, deep learning, natural language
 | **Examples**          | `list`, `dict`, `set`, `bytearray`  | `int`, `float`, `str`, `tuple`, `frozenset`, `bytes` |
 
 ---
-
+&nbsp;
 
 ### Python Data Types Table
 
@@ -33,7 +33,7 @@ Python powers AI innovation in machine learning, deep learning, natural language
 | **String (`str '' or ""`)**  | ✅ Yes  | ❌ No (Immutable) | ✅ Yes | Sequence | Text data |
 
 ---
-
+&nbsp;
 
 ## Python Operators  
 
@@ -145,7 +145,7 @@ Membership operators in Python are used to check if a value exists in a sequence
 | `==`    | Checks if values are equal | `[1, 2, 3] == [1, 2, 3]` | `True` |
 | `is`    | Checks if two variables refer to the same object | `[1, 2, 3] is [1, 2, 3]` | `False` |
 
-
 ---
+&nbsp;
 
 
