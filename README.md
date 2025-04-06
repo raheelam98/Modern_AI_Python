@@ -214,3 +214,4 @@ Found at index: 0
 Found at index: 13
 Found at index: 27
 ```
+[While loops in Python are easy](https://www.youtube.com/watch?v=rRTjPnVooxE)
