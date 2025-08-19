@@ -1,6 +1,6 @@
 # MCQ 
 
-## Python Quiz 1
+## Python Quiz 1 : MCQ Questions
 
 #### 1. What is the output of the compilation step in the Python execution engine?
 - A) Native machine code  
@@ -88,7 +88,7 @@
 
 ---
 
-## Python Data Types (Lesson 02): 25 MCQ Questions
+## Python Data Types (Lesson 02): MCQ Questions
 
 #### 1. Which of the following is an immutable data type in Python?
 - A) List  
@@ -242,7 +242,7 @@
 
 ---
 
-## Lesson_03_04
+## Lesson_03_04 : MCQ Questions
 
 #### 1. What will be the output of `~5` in Python?
 Select one answer:  
@@ -354,7 +354,7 @@ Select one answer:
 ---
 ---
 
-## Answers Lesson 1  Python Quiz 1
+## Lesson 1 Answers - Python Quiz 1
 
 **What is the output of the compilation step in the Python execution engine?**  
 C) Bytecode (.pyc files)
@@ -467,7 +467,7 @@ Answer: B) ord()
 
 ---
 
-## Answer Lesson_03_04
+##  Lesson_03_04 Answer
 
 #### 1. What will be the output of ~5 in Python?  
 B) -6  
@@ -518,7 +518,6 @@ A) in
 ---
 ---
 ---
-
 
 
 # Explanation
