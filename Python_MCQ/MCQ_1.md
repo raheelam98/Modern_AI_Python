@@ -1,7 +1,7 @@
 # MCQ 
 
 ## Python Quiz 1 : MCQ Questions
-
+ 
 #### 1. What is the output of the compilation step in the Python execution engine?
 - A) Native machine code  
 - B) Python source code  
