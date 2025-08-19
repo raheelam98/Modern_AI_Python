@@ -1,4 +1,4 @@
-# MCQ 
+# MCQ   
 
 ## Python Quiz 1 : MCQ Questions
  
@@ -245,105 +245,90 @@
 ## Lesson_03_04 : MCQ Questions
 
 #### 1. What will be the output of `~5` in Python?
-Select one answer:  
 - A) 4  
 - B) -6  
 - C) 5  
 - D) -5  
 
 #### 2. Which of the following is a binary operator?
-Select one answer:  
 - A) `+`  
 - B) `-`  
 - C) `*`  
 - D) All of the above  
 
-#### 3. What does the `//` operator do in Python?
-Select one answer:  
+#### 3. What does the `//` operator do in Python? 
 - A) Exponentiation  
 - B) Floor division  
 - C) Modulus  
 - D) Division  
 
 #### 4. What is the output of `8 % 3`?
-Select one answer:  
 - A) 2  
 - B) 5  
 - C) 3  
 - D) 8  
 
-#### 5. What will `5 == 5.0` return in Python?
-Select one answer:  
+#### 5. What will `5 == 5.0` return in Python? 
 - A) True  
 - B) False  
 - C) Error  
 - D) None  
 
 #### 6. What is the result of `8 <= 8`?
-Select one answer:  
 - A) True  
 - B) False  
 - C) None  
 - D) Error  
 
 #### 7. What is the output of `not (True or False)`?
-Select one answer:  
 - A) True  
 - B) False  
 - C) None  
 - D) Error  
 
 #### 8. What is the meaning of `x //= 3`?
-Select one answer:  
 - A) `x = x / 3`  
 - B) `x = x * 3`  
 - C) `x = x // 3`  
 - D) `x = x % 3`  
 
 #### 9. What is the result of `x *= 2` when `x = 4`?
-Select one answer:  
 - A) 6  
 - B) 8  
 - C) 4  
 - D) 2  
 
 #### 10. Which of the following is an identity operator?
-Select one answer:  
 - A) `==`  
 - B) `is`  
 - C) `!=`  
 - D) `>=`  
 
-#### 11. What is the difference between `==` and `is`?
-Select one answer:  
+#### 11. What is the difference between `==` and `is`? 
 - A) `==` checks value equality, `is` checks reference  
 - B) `is` checks value equality, `==` checks reference  
 - C) They are the same  
 - D) `is` is used only for numbers  
 
 #### 12. Which of the following is a membership operator?
-Select one answer:  
 - A) `in`  
 - B) `not in`  
 - C) Both A and B  
 - D) None of the above  
 
 #### 13. What is the result of `'a' in 'apple'`?
-Select one answer:  
 - A) True  
 - B) False  
 - C) None  
 - D) Error  
 
-#### 14. What will `'z' not in 'pizza'` return?
-Select one answer:  
+#### 14. What will `'z' not in 'pizza'` return?  
 - A) True  
 - B) False  
 - C) None  
 - D) Error  
 
-#### 15. Which membership operator checks if an element exists in a sequence?
-Select one answer:  
+#### 15. Which membership operator checks if an element exists in a sequence? 
 - A) `in`  
 - B) `not in`  
 - C) `is`  
@@ -353,7 +338,7 @@ Select one answer:
 ---
 ---
 ---
-# Python Quiz 1 - Questions with Correct Answers
+## Python Quiz 1 - Questions with Correct Answers
 
 #### 1. What is the output of the compilation step in the Python execution engine?  
 C) Bytecode (.pyc files)  
