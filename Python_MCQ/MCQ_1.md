@@ -86,6 +86,42 @@
 - C) To delete an object of a class  
 - D) To modify an object of a class
 
+#### 15. What is the primary purpose of indentation in Python?
+- A) To separate functions and classes
+- B) To improve code readability
+- C) To denote a block of code within a control structure, function, or class
+- D) To specify the data type of a variable
+
+#### 16. How does indentation contribute to the overall structure of Python code?
+- A) It defines the data types of variables
+- B) It specifies the functions and classes
+- C) It shows the relationship between different blocks of code
+- D) It improves the performance of the code
+
+#### 17. What does it mean for Python to be dynamically-typed?
+- A) Python checks the data type of a variable at compile time.
+- B) Python enforces the data type of a variable at runtime.
+- C) Python determines the data type of a variable at runtime, rather than at compile time.
+- D) Python does not support any type checking.
+
+#### 18. How does Python handle type checking?
+- A) Python is statically-typed, which means it checks the data type of a variable at compile time
+- B) Python is dynamically-typed, which means it checks the data type of a variable at runtime
+- C) Python is weakly-typed, which means it does not check the data type of a variable at all
+- D) Python is strongly-typed, which means it checks the data type of a variable at both compile and runtime
+
+#### 19. What is the None data type in Python?
+- A) A numeric data type that represents the absence of a value
+- B) A string data type that represents the absence of a value
+- C) A special data type that represents the absence of a value
+- D) A sequence data type that represents the absence of a value
+
+#### 20. What happens during implicit type casting in Python?
+- A) The programmer explicitly converts a value from one data type to another
+- B) Python automatically converts a value from one data type to another
+- C) The value is not converted, and an error is raised
+- D) The value is converted, but the original data type is lost
+
 ---
 
 ## Python Data Types (Lesson 02): MCQ Questions
@@ -380,6 +416,24 @@ B) The decimal part is truncated
 
 #### 14. What is the purpose of the `isinstance()` function in Python?  
 A) To check if a value is an instance of a class  
+
+#### 15. What is the primary purpose of indentation in Python?  
+C) To denote a block of code within a control structure, function, or class  
+
+#### 16. How does indentation contribute to the overall structure of Python code?  
+C) It shows the relationship between different blocks of code  
+
+#### 17. What does it mean for Python to be dynamically-typed?  
+C) Python determines the data type of a variable at runtime, rather than at compile time  
+
+#### 18. How does Python handle type checking?  
+B) Python is dynamically-typed, which means it checks the data type of a variable at runtime  
+
+#### 19. What is the None data type in Python?  
+C) A special data type that represents the absence of a value  
+
+#### 20. What happens during implicit type casting in Python?  
+B) Python automatically converts a value from one data type to another  
 
 ---
 
