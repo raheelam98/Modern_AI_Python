@@ -1,6 +1,6 @@
-## MCQ 
+# MCQ 
 
-# Python Quiz 1
+## Python Quiz 1
 
 #### 1. What is the output of the compilation step in the Python execution engine?
 - A) Native machine code  
@@ -84,13 +84,277 @@
 - A) To check if a value is an instance of a class  
 - B) To create a new object of a class  
 - C) To delete an object of a class  
-- D) To modify an object of a class  
+- D) To modify an object of a class
+
+---
+
+## Python Data Types (Lesson 02): 25 MCQ Questions
+
+#### 1. Which of the following is an immutable data type in Python?
+- A) List  
+- B) Dictionary  
+- C) Set  
+- D) Tuple  
+
+#### 2. What is the data type of `5 / 2` in Python 3?
+- A) int  
+- B) float  
+- C) complex  
+- D) rational  
+
+#### 3. Which function converts a string to an integer in Python?
+- A) str()  
+- B) float()  
+- C) int()  
+- D) chr()  
+
+#### 4. What is the data type of `True` in Python?
+- A) int  
+- B) string  
+- C) bool  
+- D) None  
+
+#### 5. Which of these is not a sequence type in Python?
+- A) List  
+- B) Dictionary  
+- C) String  
+- D) Tuple  
+
+#### 6. What does `type(None)` return in Python?
+- A) NullType  
+- B) NoneType  
+- C) void  
+- D) null  
+
+#### 7. What is the value of `type(1j)` in Python?
+- A) int  
+- B) float  
+- C) imaginary  
+- D) complex  
+
+#### 8. Which data type is used to store multiple items in a single variable?
+- A) List  
+- B) Integer  
+- C) String  
+- D) Boolean  
+
+#### 9. What is the output of `type([])` in Python?
+- A) <class 'array'>  
+- B) <class 'list'>  
+- C) <class 'dict'>  
+- D) <class 'set'>  
+
+#### 10. Which data type can have only unique elements in Python?
+- A) List  
+- B) Set  
+- C) Tuple  
+- D) String  
+
+#### 11. What is the data type of `3 == 5` in Python?
+- A) bool  
+- B) int  
+- C) NoneType  
+- D) comparison  
+
+#### 12. Which of the following is a mutable data type?
+- A) String  
+- B) Tuple  
+- C) List  
+- D) Integer  
+
+#### 13. What is the data type of the result of `range(5)`?
+- A) tuple  
+- B) list  
+- C) range  
+- D) iterator  
+
+#### 14. Which function checks if all characters in a string are alphanumeric?
+- A) str.isdigit()  
+- B) str.isalpha()  
+- C) str.isalnum()  
+- D) str.isdecimal()  
+
+#### 15. What is the data type of `{"apple", "banana", "cherry"}`?
+- A) list  
+- B) set  
+- C) tuple  
+- D) dictionary  
+
+#### 16. Which data type is ordered, changeable, and does not allow duplicates?
+- A) List  
+- B) Dictionary  
+- C) Tuple  
+- D) Set  
+
+#### 17. What is the result of `type("42")`?
+- A) <class 'int'>  
+- B) <class 'string'>  
+- C) <class 'str'>  
+- D) <class 'char'>  
+
+#### 18. Which data type is used to store key-value pairs?
+- A) List  
+- B) Set  
+- C) Dictionary  
+- D) Tuple  
+
+#### 19. What will `isinstance(5, int)` return?
+- A) True  
+- B) False  
+- C) 1  
+- D) "int"  
+
+#### 20. Which of the following is not a built-in Python data type?
+- A) array  
+- B) tuple  
+- C) list  
+- D) set  
+
+#### 21. What is the type of `5//2` in Python?
+- A) float  
+- B) division  
+- C) int  
+- D) rational  
+
+#### 22. What will `type(b"hello")` return?
+- A) <class 'str'>  
+- B) <class 'bytes'>  
+- C) <class 'bytearray'>  
+- D) <class 'buffer'>  
+
+#### 23. Which method converts a number to a binary string?
+- A) to_binary()  
+- B) bin()  
+- C) hex()  
+- D) int_to_bin()  
+
+#### 24. What is the data type of `{"name": "John", "age": 30}`?
+- A) List  
+- B) Set  
+- C) Tuple  
+- D) Dictionary  
+
+#### 25. Which function returns the Unicode code point for a character?
+- A) unicode()  
+- B) ord()  
+- C) chr()  
+- D) code()  
+
+---
+
+## Lesson_03_04
+
+#### 1. What will be the output of `~5` in Python?
+Select one answer:  
+- A) 4  
+- B) -6  
+- C) 5  
+- D) -5  
+
+#### 2. Which of the following is a binary operator?
+Select one answer:  
+- A) `+`  
+- B) `-`  
+- C) `*`  
+- D) All of the above  
+
+#### 3. What does the `//` operator do in Python?
+Select one answer:  
+- A) Exponentiation  
+- B) Floor division  
+- C) Modulus  
+- D) Division  
+
+#### 4. What is the output of `8 % 3`?
+Select one answer:  
+- A) 2  
+- B) 5  
+- C) 3  
+- D) 8  
+
+#### 5. What will `5 == 5.0` return in Python?
+Select one answer:  
+- A) True  
+- B) False  
+- C) Error  
+- D) None  
+
+#### 6. What is the result of `8 <= 8`?
+Select one answer:  
+- A) True  
+- B) False  
+- C) None  
+- D) Error  
+
+#### 7. What is the output of `not (True or False)`?
+Select one answer:  
+- A) True  
+- B) False  
+- C) None  
+- D) Error  
+
+#### 8. What is the meaning of `x //= 3`?
+Select one answer:  
+- A) `x = x / 3`  
+- B) `x = x * 3`  
+- C) `x = x // 3`  
+- D) `x = x % 3`  
+
+#### 9. What is the result of `x *= 2` when `x = 4`?
+Select one answer:  
+- A) 6  
+- B) 8  
+- C) 4  
+- D) 2  
+
+#### 10. Which of the following is an identity operator?
+Select one answer:  
+- A) `==`  
+- B) `is`  
+- C) `!=`  
+- D) `>=`  
+
+#### 11. What is the difference between `==` and `is`?
+Select one answer:  
+- A) `==` checks value equality, `is` checks reference  
+- B) `is` checks value equality, `==` checks reference  
+- C) They are the same  
+- D) `is` is used only for numbers  
+
+#### 12. Which of the following is a membership operator?
+Select one answer:  
+- A) `in`  
+- B) `not in`  
+- C) Both A and B  
+- D) None of the above  
+
+#### 13. What is the result of `'a' in 'apple'`?
+Select one answer:  
+- A) True  
+- B) False  
+- C) None  
+- D) Error  
+
+#### 14. What will `'z' not in 'pizza'` return?
+Select one answer:  
+- A) True  
+- B) False  
+- C) None  
+- D) Error  
+
+#### 15. Which membership operator checks if an element exists in a sequence?
+Select one answer:  
+- A) `in`  
+- B) `not in`  
+- C) `is`  
+- D) `==`  
+
 
 ---
 ---
 ---
 
-## Answers Lesson 1
+## Answers Lesson 1  Python Quiz 1
 
 **What is the output of the compilation step in the Python execution engine?**  
 C) Bytecode (.pyc files)
